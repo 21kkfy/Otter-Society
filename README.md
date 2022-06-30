@@ -236,7 +236,7 @@ Otter Society developer team, or any 3rd party, can NOT set the royalty fee high
 > 
 
 ```solidity
-				/// Reveal Otter Society on sold-out.
+	/// Reveal Otter Society on sold-out.
         /// Reduce royalty fee to 5%
         if (totalSupply() == MAX_SUPPLY) {
             isRevealed = true;
