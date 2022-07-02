@@ -1,4 +1,4 @@
-# Otter Society Contract Test
+# Otter Society Smart Contract
 
 ### Terminology
 
