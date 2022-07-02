@@ -43,6 +43,7 @@ contract OtterSociety is ERC721A, OwnableNR, ReentrancyGuard, ERC2981 {
     uint256 public constant MAX_PUBLIC_MINT = 10;
     uint256 public constant PUBLIC_SALE_PRICE = 0.6 ether;
     uint256 public constant MAX_WHITELIST_WALLETS = 300;
+    // 1000 / 10000 -> %10 royalty fee
     uint96 public royaltyDividend = 1000;
     /// @notice totalWhitelistWallets variable keeps track of how many wallets have been registered to whitelist.
     uint256 public totalWhitelistWallets = 0;
@@ -325,7 +326,7 @@ contract OtterSociety is ERC721A, OwnableNR, ReentrancyGuard, ERC2981 {
     // 2. After sold-out royalty 5%
     // 3. Contract only allows royalty fee to be 10% up-most.
     // Note "feeDenominator" is a constant value: 10000
-    // -> 500/10000 = %0.5
+    // -> 500/10000 = %5
 
     /**
     @notice Sets the contract-wide royalty info.
