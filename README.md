@@ -231,9 +231,10 @@ Note: For $N$ NFTs, you must send at least `WHITELIST_SALE_PRICE * $N$` amount o
 
 > Before sold-out royalty fee: %10
 After sold-out royalty fee: %5
+>
+
 **Note:**
 Otter Society developer team, or any 3rd party, can NOT set the royalty fee higher than %20
-> 
 
 ```solidity
 	/// Reveal Otter Society on sold-out.
@@ -244,6 +245,6 @@ Otter Society developer team, or any 3rd party, can NOT set the royalty fee high
         }
 ```
 
-*This documentation has been made & prepared by Otter Society Developer Team for public access and educational purposes. 
+**This documentation has been made & prepared by Otter Society Developer Team for public access and educational purposes.**
 
-This documentation accurately represents The Otter Society NFT Smart Contract that will be used to host The Otter Society NFT Collection.*
+**This documentation accurately represents The Otter Society NFT Smart Contract that will be used to host The Otter Society NFT Collection.**
